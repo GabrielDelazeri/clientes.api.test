@@ -36,7 +36,7 @@ public class ClientsTest {
                 .then() //Então - RESPONSE
                 .log().all()  // loga toda a response - resposta
                 .statusCode(200)  //verifica se o resultado da request é HTTP 200 OK
-                .body("id", is(1));
+                .body("id", is(id));
 
     }
 
