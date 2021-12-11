@@ -6,7 +6,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.Matchers.*;
 
-public class ClientsTest {
+class ClientsTest {
 
     @BeforeAll
     static void setup(){
